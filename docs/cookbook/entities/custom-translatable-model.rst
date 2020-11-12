@@ -321,8 +321,6 @@ Then let's prepare the entity type, that will include the translation type.
     use Sylius\Bundle\ResourceBundle\Form\Type\ResourceTranslationsType;
     use Sylius\Component\Resource\Translation\Provider\TranslationLocaleProviderInterface;
     use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
-    use Symfony\Component\Form\Extension\Core\Type\TextareaType;
-    use Symfony\Component\Form\Extension\Core\Type\TextType;
     use Symfony\Component\Form\FormBuilderInterface;
 
     class SupplierType extends AbstractResourceType
